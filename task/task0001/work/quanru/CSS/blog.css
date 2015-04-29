@@ -1,0 +1,193 @@
+#blog{
+	width: 980px;
+	margin: 0 auto;
+}
+
+#blog-content{
+	float: left;
+	width: 750px;
+}
+
+.day{
+	width: 710px;
+	padding: 25px 20px;
+	background: #fff;
+	margin: 10px 10px 10px 0;
+	position: relative;
+}
+
+.blog-date{
+	width: 50px;
+	height: 40px;
+	background: #522a5c;
+	position: relative;
+	color: #fff;
+	left: -70px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.blog-tech{
+	width: 50px;
+	height: 40px;
+	background: #a660b7;
+	position: relative;
+	color: #fff;
+	left: -70px;
+	text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.blog-par{
+	position: relative;
+	top: -80px;
+	margin-bottom: -80px;
+}
+
+.blog-par h2{
+	font-size: 16px;
+}
+
+.blog-par h3{
+	font-size: 12px;
+	color: #666;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.blog-par p{
+	font-size: 12px;
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+
+.blog-det{
+	font-size: 10px;
+	position: absolute;
+	bottom: 15px;
+	right: 25px;
+}
+
+#blog-pages{
+	width: 980px;
+	padding-left: 60px;
+}
+
+#blog-pages a{
+	line-height: 40px;
+	display: block;
+}
+
+#blog-page a:hover{
+	color: #fff;
+}
+
+#blog-pages a:hover{
+	color: #fff;
+}
+
+.page-nav,.pages-nav{
+	float: left;
+	background: #fff;
+	margin: 0 5px 195px 5px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.page-nav:hover,.pages-nav:hover{
+	background: #a660b7;
+	color: #fff;
+}
+
+.page-nav{
+	width: 75px;
+	height: 40px;
+}
+
+.pages-nav{
+	width: 40px;
+	height: 40px;
+}
+
+#blog-right{
+	margin-top: 10px;
+	float: left;
+	width: 40px;
+	margin-left: 10px;
+}
+
+#blog-list{
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+}
+
+.blog-title{
+	color: #666;
+	font-size: 16px;
+	width: 255px;
+	height: 50px;
+	line-height: 50px;
+	border-left: 5px solid #dfc6e6;
+	text-indent: 1em;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+
+.blog-title:hover{
+	border-left: 5px solid #522a5c;
+}
+
+#blog-cal{
+	padding: 30px;
+	background: #fff;
+	width: 200px;
+	height: 180px;
+}
+
+#cal-head{
+	border-bottom: 1px solid #eee;
+}
+
+#blog-cal pre{
+	color: #773c88;
+	font-weight: bold;
+}
+
+.cal-block{
+	float: left;
+	width: 25px;
+	height: 25px;
+	padding: 1px;
+	margin-top: 5px;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	line-height: 25px;
+}
+
+.cal-block:hover{
+	background: #773c88;
+	color: #fff;
+}
+
+#blog-tags{
+	width: 220px;
+	height: 180px;
+	padding: 10px 20px;
+	background: #fff;
+	color:  #773c88;
+}
+
+#tag-head{
+	color: #000;
+}
+
+#blog-tags h3,#blog-tags h4{
+	float: left;
+	margin: 3px;
+	line-height: 30px;
+}
+

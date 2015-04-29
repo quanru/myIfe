@@ -1,0 +1,196 @@
+#gallery{
+	width: 980px;
+	padding: 20px;
+	background: #eee;
+	margin: 0 auto;
+}
+
+#gallery-con{
+	float: left;
+	width: 710px;
+}
+
+#gal-nav{
+	width: 640px;
+	height: 50px;
+}
+
+#gal-nav li{
+	float: left;
+	margin: 0 1px 0 0;
+	line-height: 50px;
+	padding: 0 15px;
+	font-size: 14px;
+	border-top: 5px solid #773c88;
+	background: #fff;
+}
+
+#gal-imgs{
+	width: 670px;
+	padding: 20px;
+	background: #fff;
+	-webkit-column-count: 2;
+       -webkit-column-gap: 5px;
+       -webkit-column-width: 330px;
+       -moz-column-count: 2;
+       -moz-column-gap: 5px;
+       -moz-column-width: 330px;
+       column-count: 2;
+       column-gap: 5px;
+       column-width: 330px;
+}
+
+#con-wrap1{
+	background: #773c88;
+	width: 330px;
+	color: #fff;
+	float: left;
+	margin-bottom: 5px;
+}
+
+#letter-wrap1{
+	padding: 10px;
+}
+
+#letter-wrap1 span{
+	position: relative;
+	left: -98px;
+	font-size: 16px;
+}
+
+#con-wrap1 h4{
+	font-size: 14px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#con-wrap1 p{
+	font-size: 14px;
+}
+
+.my-circle{
+	float: left;
+	margin-right: 10px;
+}
+
+.con-wrap2{
+	width: 160px;
+	color: #fff;
+	float: left;
+	margin: 5px 0px 5px 5px;
+}
+
+.letter-wrap2{
+	padding: 10px;
+}
+
+.con-wrap2 h4{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+.con-wrap2 p{
+	font-size: 14px;
+}
+
+.items1 {
+    background: #d9a300;
+}
+.items2 {
+    background: #522a5c;
+}
+.items3 {
+    background: #5900b2;
+}
+.items4 {
+    background: #8c2300;
+}
+
+#see-more{
+	color: #666;
+	background: #fff;
+	width: 710px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#see-more img{
+	width: 40px;
+	height: 25px;
+	position: relative;
+	bottom: -5px;
+	right: -10px;
+}
+
+#gallery-right{
+	width: 260px;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+	bottom: -55px;
+}
+
+.gallery-list{
+    margin-top: 10px;
+    padding: 20px 13px 30px;
+    background: #fff;
+}
+
+.gallery-list h2 {
+    height: 40px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666666;
+    text-indent: 2px;
+}
+.gallery-list li {
+    height: 30px;
+    vertical-align: top;
+}
+.gallery-list li span {
+    font-size: 10px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    background: url(../img/icon-circle2.png) no-repeat;
+}
+.gallery-list li p {
+    font-weight: normal;
+    font-size: 10px;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+}
+.gallery-list .progress-bar {
+    width: 100px;
+    height: 16px;
+    border: 1px solid #532b5d;
+    float: left;
+    margin:0 10px 0 12px;
+} 
+.progress-bar-100,
+.progress-bar-80,
+.progress-bar-60,
+.progress-bar-40,
+.progress-bar-20 {
+    width: 100%;
+    height: 100%;
+    background: #532b5d;
+}
+.progress-bar-80 {
+    width: 80%;
+}
+.progress-bar-60 {
+    width: 60%;
+}
+.progress-bar-40 {
+    width: 40%;
+}
+.progress-bar-20 {
+    width: 20%;
+}
