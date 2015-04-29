@@ -1,0 +1,172 @@
+#gallery {
+    width: 980px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #eee;
+}
+#gallery-con {
+    float: left;
+    width: 710px;
+}
+#gal-nav {
+    width: 640px;
+    height: 50px;
+}
+#gal-nav li {
+    font-size: 14px;
+    line-height: 50px;
+    float: left;
+    margin: 0 1px 0 0;
+    padding: 0 15px;
+    border-top: 5px solid #773c88;
+    background: #fff;
+}
+#gal-imgs {
+    width: 670px;
+    padding: 20px;
+    background: #fff;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 5px;
+    -webkit-column-width: 330px;
+    -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -moz-column-width: 330px;
+    column-count: 2;
+    column-gap: 5px;
+    column-width: 330px;
+}
+#con-wrap1 {
+    float: left;
+    width: 330px;
+    margin-bottom: 5px;
+    color: #fff;
+    background: #773c88;
+}
+#letter-wrap1 {
+    padding: 10px;
+}
+#letter-wrap1 span {
+    font-size: 16px;
+    position: relative;
+    left: -98px;
+}
+#con-wrap1 h4 {
+    font-size: 14px;
+    float: left;
+    margin-bottom: 5px;
+}
+#con-wrap1 p {
+    font-size: 14px;
+}
+.my-circle {
+    float: left;
+    margin-right: 10px;
+}
+.con-wrap2 {
+    float: left;
+    width: 160px;
+    margin: 5px 0 5px 5px;
+    color: #fff;
+}
+.letter-wrap2 {
+    padding: 10px;
+}
+.con-wrap2 h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.con-wrap2 p {
+    font-size: 14px;
+}
+.items1 {
+    background: #d9a300;
+}
+.items2 {
+    background: #522a5c;
+}
+.items3 {
+    background: #5900b2;
+}
+.items4 {
+    background: #8c2300;
+}
+#see-more {
+    line-height: 50px;
+    width: 710px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    color: #666;
+    background: #fff;
+}
+#see-more img {
+    position: relative;
+    right: -10px;
+    bottom: -5px;
+    width: 40px;
+    height: 25px;
+}
+#gallery-right {
+    position: relative;
+    bottom: -55px;
+    float: left;
+    width: 260px;
+    margin-left: 10px;
+}
+.gallery-list {
+    margin-top: 10px;
+    padding: 20px 13px 30px;
+    background: #fff;
+}
+.gallery-list h2 {
+    font-size: 14px;
+    font-weight: normal;
+    height: 40px;
+    text-indent: 2px;
+    color: #666;
+}
+.gallery-list li {
+    height: 30px;
+    vertical-align: top;
+}
+.gallery-list li span {
+    font-size: 10px;
+    line-height: 16px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/icon-circle2.png) no-repeat;
+}
+.gallery-list li p {
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 18px;
+    float: left;
+    height: 18px;
+}
+.gallery-list .progress-bar {
+    float: left;
+    width: 100px;
+    height: 16px;
+    margin: 0 10px 0 12px;
+    border: 1px solid #532b5d;
+}
+.progress-bar-100, .progress-bar-80, .progress-bar-60, .progress-bar-40, .progress-bar-20 {
+    width: 100%;
+    height: 100%;
+    background: #532b5d;
+}
+.progress-bar-80 {
+    width: 80%;
+}
+.progress-bar-60 {
+    width: 60%;
+}
+.progress-bar-40 {
+    width: 40%;
+}
+.progress-bar-20 {
+    width: 20%;
+}

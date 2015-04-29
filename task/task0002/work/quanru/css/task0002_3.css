@@ -1,0 +1,38 @@
+  * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+ }
+ .wrap {
+     height: 738px;
+     width: 980px;
+     overflow: hidden;
+     position: relative;
+     margin: 0 auto;
+}
+.wrap img {
+    width: 980px;
+    height: 738px;
+}
+.wrap ul li {
+    width: 980px;
+    height: 738px;
+}
+.wrap ol {
+    position: absolute;
+    bottom: 10px;
+    left: 450px;
+}
+.wrap ol li {
+    -webkit-border-radius: 15px;
+    height: 15px;
+    width: 15px;
+    border: solid 1px #666;
+    background: #eee;
+    margin-left: 5px;
+    float: left;
+    cursor: pointer;
+}
+.wrap ol .on {
+    background: #E97305;
+}

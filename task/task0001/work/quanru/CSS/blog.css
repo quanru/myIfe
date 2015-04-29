@@ -1,0 +1,163 @@
+#blog {
+    width: 980px;
+    margin: 0 auto;
+}
+#blog-content {
+    float: left;
+    width: 750px;
+}
+.day {
+    position: relative;
+    width: 710px;
+    margin: 10px 10px 10px 0;
+    padding: 25px 20px;
+    background: #fff;
+}
+.blog-date {
+    font-size: 20px;
+    line-height: 40px;
+    position: relative;
+    left: -70px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #522a5c;
+}
+.blog-tech {
+    font-size: 20px;
+    line-height: 40px;
+    position: relative;
+    left: -70px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #a660b7;
+}
+.blog-par {
+    position: relative;
+    top: -80px;
+    margin-bottom: -80px;
+}
+.blog-par h2 {
+    font-size: 16px;
+}
+.blog-par h3 {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #666;
+}
+.blog-par p {
+    font-size: 12px;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+.blog-det {
+    font-size: 10px;
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+}
+#blog-pages {
+    width: 980px;
+    padding-left: 60px;
+}
+#blog-pages a {
+    line-height: 40px;
+    display: block;
+}
+#blog-page a:hover {
+    color: #fff;
+}
+#blog-pages a:hover {
+    color: #fff;
+}
+.page-nav, .pages-nav {
+    font-size: 15px;
+    line-height: 40px;
+    float: left;
+    margin: 0 5px 195px 5px;
+    text-align: center;
+    background: #fff;
+}
+.page-nav:hover, .pages-nav:hover {
+    color: #fff;
+    background: #a660b7;
+}
+.page-nav {
+    width: 75px;
+    height: 40px;
+}
+.pages-nav {
+    width: 40px;
+    height: 40px;
+}
+#blog-right {
+    float: left;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#blog-list {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+}
+.blog-title {
+    font-size: 16px;
+    line-height: 50px;
+    width: 255px;
+    height: 50px;
+    text-indent: 1em;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    border-left: 5px solid #dfc6e6;
+    background: #fff;
+}
+.blog-title:hover {
+    border-left: 5px solid #522a5c;
+}
+#blog-cal {
+    width: 200px;
+    height: 180px;
+    padding: 30px;
+    background: #fff;
+}
+#cal-head {
+    border-bottom: 1px solid #eee;
+}
+#blog-cal pre {
+    font-weight: bold;
+    color: #773c88;
+}
+.cal-block {
+    font-size: 14px;
+    line-height: 25px;
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    padding: 1px;
+    text-align: center;
+    color: #999;
+}
+.cal-block:hover {
+    color: #fff;
+    background: #773c88;
+}
+#blog-tags {
+    width: 220px;
+    height: 180px;
+    padding: 10px 20px;
+    color: #773c88;
+    background: #fff;
+}
+#tag-head {
+    color: #000;
+}
+#blog-tags h3, #blog-tags h4 {
+    line-height: 30px;
+    float: left;
+    margin: 3px;
+}

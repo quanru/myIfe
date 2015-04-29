@@ -1,0 +1,77 @@
+#about-con {
+    width: 980px;
+    margin: 100px auto 20px auto;
+}
+#about-left {
+    float: left;
+    width: 495px;
+    height: 1800px;
+    background: #fff;
+}
+.left-h {
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
+h1.left-h {
+    top: -60px;
+    left: 340px;
+}
+h4.left-h {
+    top: 40px;
+}
+.left-img {
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    left: 440px;
+    margin: 50px 0;
+}
+#lear {
+    top: 70px;
+}
+#person {
+    position: relative;
+    top: -60px;
+    left: 400px;
+}
+#about-right {
+    float: right;
+    width: 420px;
+    height: 1740px;
+    padding: 30px;
+    background: #fff;
+}
+#self-in p {
+    position: relative;
+    top: 90px;
+    text-indent: 1.7em;
+}
+#self-in ul {
+    position: relative;
+    top: 295px;
+}
+#self-in span {
+    position: relative;
+    top: 460px;
+    left: 20px;
+}
+.year {
+    line-height: 25px;
+    position: relative;
+    left: -67px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    border: 5px solid #eee;
+    -webkit-border-radius: 10px;
+    background: #fff;
+}
+#year1 {
+    top: 500px;
+}
+#year2 {
+    top: 500px;
+}
