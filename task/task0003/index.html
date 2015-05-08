@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+        <script type="text/javascript" src="./JS/index.js"></script>
+        <title>GTD</title>
+    </head>
+    <body>
+        <div id="header">GTD Tools</div>
+        <div id="bd">
+            <div id="detailsListWrap">
+                <div id="detailsList">
+                    <h2 id="taskName">to do</h2>
+                    <h3 id="taskDate">任务日期：</h3>
+                    <img id="doneButton" src="./img/done.gif">
+                    <img id="editButton" src="./img/edit.gif">
+                    <textarea  id="taskDetail"></textarea>
+                </div>
+            </div>
+            <div id="classifyList">
+                <h1 id="selAll">所有任务(0)</h1>
+                <h2>分类列表</h2>
+                <ul id="lists">
+                    <li id="defaultClass" class="defaultClass"><img class="delTag" src="./img/del.gif">默认分类<span>(0)</span></li>
+                </ul>
+                <div id="newClass">
+                    新增分类
+                </div>
+            </div>
+            <div id="tasksList">
+                <ul id="tags">
+                    <li id="allTasks">所有</li>
+                    <li id="undoTasks">未完成</li>
+                    <li id="doneTasks">已完成</li>
+                </ul>
+                <ul id="tasks">
+
+                </ul>
+                <div id="newTask">
+                    新增任务
+                </div>
+            </div>
+        </div>
+        <div id="newTaskEdit">
+            <div><input id="newTaskHead" value="请输入少于五个字符的标题"></div>
+            <div><input id="newTaskDate" value="日期：YY-MM-DD"></div>
+            <div><textarea id="newTaskCon">任务描述...</textarea></div>
+            <button id="addBtn">添加</button>
+            <button id="canBtn">取消</button>
+        </div>
+    </body>
+</html>

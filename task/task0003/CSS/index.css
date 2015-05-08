@@ -1,0 +1,233 @@
+/*样式重置 */
+head, body, div, h1, h2, h3, img, textarea, ul, li, input {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+/*样式设置*/
+#header {
+    font-size: 25px;
+    line-height: 70px;
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+    color: #868686;
+    background: #ddd;
+}
+#bd {
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+}
+#classifyList {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 650px;
+    margin-left: -100%;
+    padding-left: 10px;
+    background: #f2f2f2;
+}
+#classifyList h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+#classifyList h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+#lists {
+    position: relative;
+}
+#lists li {
+    margin: 10px 0 10px 10px;
+    list-style: inside url(../img/folder.gif);
+}
+#lists li:hover {
+    color: #238c00;
+}
+.defaultClass {
+    color: #238c00;
+}
+.defaultClass img {
+    visibility: hidden;
+}
+.delTag {
+    position: relative;
+    left: 230px;
+}
+#newClass {
+    line-height: 60px;
+    position: absolute;
+    bottom: -1px;
+    float: left;
+    width: 270px;
+    height: 60px;
+    padding-left: 30px;
+    text-indent: 16px;
+    border-top: 1px solid #ccc;
+    background: #eee;
+    background: url(../img/add.gif) no-repeat 16px 16px;
+}
+#tasksList {
+    position: relative;
+    left: 300px;
+    float: left;
+    width: 298px;
+    height: 650px;
+    margin-left: -100%;
+    border: 1px solid #eee;
+}
+#tags {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    background: #eee;
+}
+#tags li {
+    line-height: 30px;
+    float: left;
+    height: 30px;
+    margin: 10px 10px;
+    text-align: center;
+}
+#tags li:hover {
+    line-height: 28px;
+    height: 28px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+#tasks div {
+    background: #fafaee;
+}
+#tasks li {
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    margin: 10px;
+    text-indent: 20px;
+}
+#tasks li:hover {
+    color: #238c00;
+}
+.undo {
+    color: #d859f1;
+}
+.done {
+    color: #3f75a4;
+}
+#newTask {
+    line-height: 60px;
+    position: absolute;
+    bottom: 0;
+    float: left;
+    width: 268px;
+    height: 60px;
+    padding-left: 30px;
+    text-indent: 16px;
+    border-top: 1px solid #ccc;
+    background: #eee;
+    background: url(../img/add.gif) no-repeat 16px 16px;
+}
+#detailsListWrap {
+    float: left;
+    width: 100%;
+    height: 650px;
+}
+#detailsList {
+    position: relative;
+    margin-left: 600px;
+}
+#detailsList img {
+    position: absolute;
+    top: 20px;
+    float: left;
+    width: 29px;
+    height: 29px;
+    margin-left: 10px;
+}
+#taskName {
+    line-height: 70px;
+    height: 70px;
+    padding-left: 20px;
+    background: #f2f2f2;
+}
+#taskDate {
+    font-weight: normal;
+    line-height: 70px;
+    height: 70px;
+    padding-left: 20px;
+    background: #fafaee;
+}
+#doneButton {
+    right: 69px;
+}
+#editButton {
+    right: 20px;
+}
+#taskDetail {
+    font-size: 30px;
+    width: 100%;
+    height: 508px;
+}
+#newTaskEdit {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    display: none;
+    float: left;
+    width: 100%;
+    height: 350px;
+}
+#newTaskHead {
+    font-size: 45px;
+    width: 600px;
+    height: 50px;
+}
+#newTaskDate {
+    font-size: 35px;
+    width: 600px;
+    height: 40px;
+}
+#newTaskCon {
+    font-size: 35px;
+    width: 602px;
+    height: 200px;
+}
+#addBtn {
+    font-size: 35px;
+}
+#canBtn {
+    font-size: 35px;
+}
+/*当屏幕宽度小于825px时，应用如下样式*/
+@media only screen and (max-width: 825px) {
+    #header {
+        width: 825px;
+   }
+   #detailsListWrap {
+       width: 250px;
+       height: 650px;
+  }
+  #detailsList {
+      position: relative;
+      width: 250px;
+      margin-left: 600px;
+ }
+ #taskName {
+     width: 230px;
+}
+#taskDate {
+    width: 230px;
+}
+#taskDetail {
+    width: 230px;
+}
+#classifyList {
+    margin-left: -250px;
+}
+#tasksList {
+    margin-left: -300px;
+}
+}
